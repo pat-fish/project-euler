@@ -90,7 +90,7 @@ int contains_origin(int triangle_num) {
     }
 
     // odd number of pos intercepts -> contains origin
-    if (pos_count % 2 != 0) {
+    if (pos_count == 1) {
         return 1;
     } else {
         return 0;
